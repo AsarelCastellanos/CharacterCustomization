@@ -1,0 +1,703 @@
+.display {
+    width: 100%;
+    height: 60%;
+    
+}
+
+.customizable {
+    width: 100%;
+    height: 50px;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+}
+
+.customButton {
+    width: 25%;
+    height: 100%;
+}
+
+ion-col {
+    background-color: white;
+}
+
+.faces {
+    display: block;
+}
+
+#skinTone1 {
+    display: block;
+}
+
+#face11 {
+    display: block;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face12 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face13 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face14 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face15 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face16 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face17 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face18 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#skinTone2 {
+    display: none;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+}
+
+#face21 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face22 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face23 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face24 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face25 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face26 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face27 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face28 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#skinTone3 {
+    display: none;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+}
+
+#face31 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face32 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face33 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face34 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face35 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face36 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face37 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face38 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#skinTone4 {
+    display: none;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+}
+
+#face41 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face42 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face43 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face44 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face45 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face46 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face47 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face48 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#skinTone5 {
+    display: none;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+}
+
+#face51 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face52 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face53 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face54 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face55 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face56 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face57 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#face58 {
+    display: none;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.hair {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#hair1 {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    width: 58%;
+    top: 12%;
+    left: 23%;
+}
+
+#hair2 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    width: 58%;
+    top: 12%;
+    left: 24%;
+}
+
+#hair3 {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    width: 58%;
+    top: 12%;
+    left: 30%;
+}
+
+#hair3 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    width: 60%;
+    top: 12%;
+    left: 24%;
+}
+
+#hair4 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    width: 54%;
+    top: 14%;
+    left: 24%;
+}
+
+#hair5 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    width: 50%;
+    top: 17%;
+    left: 27%;
+}
+
+#hair6 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    width: 54%;
+    top: 14%;
+    left: 25%;
+}
+
+#hair7 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    width: 52%;
+    top: 14%;
+    left: 25%;
+}
+
+#hair8 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    width: 50%;
+    top: 17%;
+    left: 26%;
+}
+
+.eyes {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#eyes1 {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    top: 30%;
+    left: 42%;
+}
+
+#eyes2 {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 30%;
+    left: 42%;
+}
+
+#eyes3 {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 30%;
+    left: 42%;
+}
+
+#eyes4 {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 30%;
+    left: 42%;
+}
+
+#eyes5 {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 30%;
+    left: 42%;
+}
+
+
+#eyes6 {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 30%;
+    left: 42%;
+}
+
+
+#eyes7 {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 30%;
+    left: 42%;
+}
+
+#eyes8 {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 30%;
+    left: 42%;
+}
+
+ion-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 50%;
+}
+
+.options {
+    width: 100%;
+    height: 300px;
+}
+
+#skinToneButton {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+#faceButton1 {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.skinTone1Face {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#faceButton2 {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.skinTone2Face {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#faceButton3 {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.skinTone3Face {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#faceButton4 {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.skinTone4Face {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#faceButton5 {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.skinTone5Face {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hairButton {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.showHair {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#eyeButton {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.showEye {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: auto;
+    margin: auto;
+}
+
+.skinToneRow {
+    width: 100%;
+    height: 100px;
+}
+
+#skinToneOption {
+    width: 25%;
+    margin: auto;
+}
