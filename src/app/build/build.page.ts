@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 let customButton: string[];
-customButton = ['skinToneButton', 'hairButton', 'eyeButton'];
+customButton = ['skinToneButton', 'hairButton', 'eyeButton', 'faceButton'];
 let faceButtons: string[];
 faceButtons = ['faceButton1', 'faceButton2', 'faceButton3', 'faceButton4', 'faceButton5'];
 let hairButtons: string[];
@@ -18,8 +18,8 @@ let skinTone4Face: string[];
 skinTone4Face = ['face41', 'face42', 'face43', 'face44', 'face45', 'face46', 'face47', 'face48'];
 let skinTone5Face: string[];
 skinTone5Face = ['face51', 'face52', 'face53', 'face54', 'face55', 'face56', 'face57', 'face58'];
-let holder: number;
-holder = -1;
+let holder: string;
+holder = ' ';
 let holderArr: string[];
 
 @Component({
@@ -35,44 +35,58 @@ export class BuildPage implements OnInit {
 
   skinTone(data) {
     if (data == 'faceButton1') {
-      holder = 0;
+      holder = 'faceButton1';
       holderArr = skinTone1Face;
-      return data;
     } else if (data == 'faceButton2') {
-      holder = 1;
+      holder = 'faceButton2';
       holderArr = skinTone3Face;
     } else if (data == 'faceButton3') {
-      holder = 2;
+      holder = 'faceButton3';
       holderArr = skinTone3Face;
     } else if (data == 'faceButton4') {
-      holder = 3;
+      holder = 'faceButton4';
       holderArr = skinTone4Face;
     } else {
-      holder = 4;
+      holder = 'faceButton5';
       holderArr = skinTone5Face;
     }
+    console.log(holder);
+    console.log(holderArr);
+  }
+
+  hideFaceButtons(data) {
+    let y;
+    for (y = 0; y < faceButtons.length; y++) {
+      if(data != faceButtons[y]) {
+        console.log("hide " + faceButtons[y]);
+        document.getElementById(faceButtons[y]).style.display = 'none';
+      }
+    }
+    console.log("display " + data);
+    document.getElementById(data).style.display = 'block';
   }
 
   showType(data) {
-      let x;
-      for (x = 0; x < customButton.length; x++) {
-        if (data != customButton[x]) {
-          document.getElementById(customButton[x]).style.display = 'none';
-        }
+    let x;
+    for (x = 0; x < customButton.length; x++) {
+      if (data != customButton[x]) {
+        console.log("hide " + customButton[x]);
+        document.getElementById(customButton[x]).style.display = 'none';
       }
-      document.getElementById(data).style.display = 'block';
     }
+    console.log("show " + data);
+    document.getElementById(data).style.display = 'block';
+  }
 
   showFace(data) {
-    if (holder == -1) {
-      holderArr = skinTone1Face;
-    }
     let b;
     for (b = 0; b < holderArr.length; b++) {
       if (data != holderArr[b]) {
+        console.log("hide " + holderArr[b]);
         document.getElementById(holderArr[b]).style.display = 'none';
       }
     }
+    console.log("show " + data);
     document.getElementById(data).style.display = 'block';
   }
 
@@ -80,9 +94,11 @@ export class BuildPage implements OnInit {
     let z;
     for (z = 0; z < hairButtons.length; z++) {
       if (data != hairButtons[z]) {
+        console.log("hide " + hairButtons[z]);
         document.getElementById(hairButtons[z]).style.display = 'none';
       }
     }
+    console.log("show  " + data);
     document.getElementById(data).style.display = 'block';
   }
 
@@ -90,9 +106,11 @@ export class BuildPage implements OnInit {
     let a;
     for (a = 0; a < eyeButtons.length; a++) {
       if (data != eyeButtons[a]) {
+        console.log("hide " + eyeButtons[a]);
         document.getElementById(eyeButtons[a]).style.display = 'none';
       }
     }
+    console.log("show " + data);
     document.getElementById(data).style.display = 'block';
   }
 }
